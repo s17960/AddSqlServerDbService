@@ -1,0 +1,15 @@
+﻿@model ICollection<Onion.Domain.Entities.Student>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Studenci</h1>
+    <ul>
+        @foreach(var i in Model)
+        {
+            <li>@i.LastName @i.FirstName</li>
+        }
+    </ul>
+</div>
