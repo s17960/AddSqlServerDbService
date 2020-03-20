@@ -9,13 +9,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{BAE41C4C-FB06-42C4-85A1-03A5A42B63A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Domain", "Onion.Domain\Onion.Domain.csproj", "{53FA3A2F-21CA-4638-BE0C-5819A7571BC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onion.Domain", "Onion.Domain\Onion.Domain.csproj", "{53FA3A2F-21CA-4638-BE0C-5819A7571BC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Infratructure.MockDb", "Onion.Infratructure.MockDb\Onion.Infratructure.MockDb.csproj", "{F836194B-56EF-4FB4-BABE-4C164B4F8C47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onion.Infratructure.MockDb", "Onion.Infratructure.MockDb\Onion.Infratructure.MockDb.csproj", "{F836194B-56EF-4FB4-BABE-4C164B4F8C47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.UI.WebApi", "Onion.UI.WebApi\Onion.UI.WebApi.csproj", "{6E5FD4F0-34A7-4221-BC09-D1E5DF721A35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onion.UI.WebApi", "Onion.UI.WebApi\Onion.UI.WebApi.csproj", "{6E5FD4F0-34A7-4221-BC09-D1E5DF721A35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.UI.WebApp", "Onion.UI.WebApp\Onion.UI.WebApp.csproj", "{40448CE6-B382-442D-93F4-CA3B382BFFB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Onion.UI.WebApp", "Onion.UI.WebApp\Onion.UI.WebApp.csproj", "{40448CE6-B382-442D-93F4-CA3B382BFFB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Onion.Infrastructure.SqlServerDb", "Onion.Infrastructure.SqlServerDb\Onion.Infrastructure.SqlServerDb.csproj", "{C96585B7-F32E-40F0-BD2C-C9B3D12E87C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{40448CE6-B382-442D-93F4-CA3B382BFFB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40448CE6-B382-442D-93F4-CA3B382BFFB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40448CE6-B382-442D-93F4-CA3B382BFFB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C96585B7-F32E-40F0-BD2C-C9B3D12E87C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C96585B7-F32E-40F0-BD2C-C9B3D12E87C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C96585B7-F32E-40F0-BD2C-C9B3D12E87C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C96585B7-F32E-40F0-BD2C-C9B3D12E87C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,6 +54,7 @@ Global
 		{F836194B-56EF-4FB4-BABE-4C164B4F8C47} = {5444E061-7443-4132-BB86-F3142AFB284B}
 		{6E5FD4F0-34A7-4221-BC09-D1E5DF721A35} = {BAE41C4C-FB06-42C4-85A1-03A5A42B63A9}
 		{40448CE6-B382-442D-93F4-CA3B382BFFB7} = {BAE41C4C-FB06-42C4-85A1-03A5A42B63A9}
+		{C96585B7-F32E-40F0-BD2C-C9B3D12E87C5} = {5444E061-7443-4132-BB86-F3142AFB284B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E84ECBA1-CFEC-4F23-A48C-F8B74AC261C4}

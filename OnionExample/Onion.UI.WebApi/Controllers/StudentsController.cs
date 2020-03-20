@@ -27,8 +27,6 @@ namespace Onion.UI.WebApi.Controllers
         [HttpPost]
         public IActionResult AddStudent(Student student)
         {
-
-
             if (_dbService.AddStudent(student)) return Ok();
 
             return BadRequest();
